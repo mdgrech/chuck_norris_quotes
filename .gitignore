@@ -22,3 +22,5 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 chuck_norris_quotes-*.tar
 
+.elixir_ls
+
