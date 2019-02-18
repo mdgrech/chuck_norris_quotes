@@ -1,11 +1,10 @@
 # ChuckNorrisQuotes
 
-**TODO: Add description**
+A rather pointless package to provide you with Chuck Norris Quotes
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `chuck_norris_quotes` to your list of dependencies in `mix.exs`:
+The package can be installed can be installed by adding `chuck_norris_quotes` to your list of dependencies in your `mix.exs`:
 
 ```elixir
 def deps do
@@ -15,7 +14,4 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/chuck_norris_quotes](https://hexdocs.pm/chuck_norris_quotes).
-
+The docs canbe found at [https://hexdocs.pm/chuck_norris_quotes](https://hexdocs.pm/chuck_norris_quotes).
