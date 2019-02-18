@@ -4,7 +4,7 @@ defmodule ChuckNorrisQuotes do
   """
 
   @doc """
-  random_quote
+  Gives you a random Chuck Norris quote.
 
   ## Examples
 
@@ -15,9 +15,13 @@ defmodule ChuckNorrisQuotes do
 
   """
   def random_quote do
-    Enum.random(get_quotes())
+    get_quotes()
+    |> Enum.random()
   end
 
+  @doc """
+  Gives you a list of Chuck Norris quotes.
+  """
   def get_quotes do
     [
       "Chuck Norris is currently suing NBC, claiming \"Law and Order\" are trademarked names.",
